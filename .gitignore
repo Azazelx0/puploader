@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.ipynb_checkpoints/
+.agent/
+.gemini/
+.idea/
+.vscode/
+*.swp
+*.log
