@@ -68,10 +68,11 @@ python3 puploader.py \
 
 ```
 $ python3 puploader.py
-========================================================
-                 puploader (No coding needed)
-========================================================
-This tool uploads one file to an HTTP endpoint.
+╭────────────────────────────────────────────────────────────╮
+│                       📤 PUPLOADER                         │
+│         (Simple Standard Library File Uploader)            │
+╰────────────────────────────────────────────────────────────╯
+ This tool uploads one file to an HTTP endpoint.
 
 Upload URL: http://localhost:8000/upload
 Path to file: ./report.pdf

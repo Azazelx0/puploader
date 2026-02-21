@@ -105,10 +105,11 @@ def perform_upload(url: str, file_path: Path, field_name: str, timeout: int) -> 
 
 
 def run_tui(default_field_name: str, default_timeout: int) -> int:
-    print("=" * 56)
-    print("                 puploader (No coding needed)")
-    print("=" * 56)
-    print("This tool uploads one file to an HTTP endpoint.\n")
+    print("╭────────────────────────────────────────────────────────────╮")
+    print("│                       📤 PUPLOADER                         │")
+    print("│         (Simple Standard Library File Uploader)            │")
+    print("╰────────────────────────────────────────────────────────────╯")
+    print(" This tool uploads one file to an HTTP endpoint.\n")
 
     while True:
         url = prompt_non_empty("Upload URL: ")
